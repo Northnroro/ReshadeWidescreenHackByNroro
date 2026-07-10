@@ -4,7 +4,7 @@
 
 Some games can render to a `3840x1080` Full SBS-style window, but still calculate camera projection, UI layout, and aspect ratio as if `3840x1080` is one normal ultra-wide image. When viewed in Full SBS mode, that can make the game look horizontally squeezed or make the camera/UI logic feel wrong.
 
-For XREAL Full SBS testing, the desired behavior is:
+For Full SBS testing, the desired behavior is:
 
 - the real window/backbuffer stays `3840x1080`
 - the game logic thinks the window is `1920x1080`
